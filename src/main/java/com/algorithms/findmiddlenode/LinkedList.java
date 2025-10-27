@@ -36,22 +36,6 @@ public class LinkedList {
         }
     }
 
-    public void printAll() {
-        if (head == null) {
-            System.out.println("Head: null");
-            System.out.println("Tail: null");
-        } else {
-            System.out.println("Head: " + head.value);
-            System.out.println("Tail: " + tail.value);
-        }
-        System.out.println("\nLinked List:");
-        if (head == null) {
-            System.out.println("empty");
-        } else {
-            printList();
-        }
-    }
-
     public void makeEmpty() {
         head = null;
         tail = null;
