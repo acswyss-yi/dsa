@@ -69,6 +69,7 @@ public class LinkedList {
         Node fast = head;
 
         for (int i = 0; i < k; i++) {
+            //Stop Condition
             if (fast == null) return null;
             fast = fast.next;
         }
