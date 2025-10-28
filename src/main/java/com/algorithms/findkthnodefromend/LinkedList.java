@@ -64,7 +64,6 @@ public class LinkedList {
 
     public Node findKthFromEnd(int k) {
         if (k <= 0) return null;
-
         Node slow = head;
         Node fast = head;
 
